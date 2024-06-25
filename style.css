@@ -1,0 +1,43 @@
+body {
+    background-color: #f6f6f6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #fff; /* Optional: Add background color to the header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to the header */
+}
+
+header .home,
+header .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px; 
+}
+
+header .home li,
+header .nav li {
+    display: inline-block;
+}
+
+header .nav {
+    margin-left: auto;
+}
+
+header .home li a,
+header .nav li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+header .nav {
+    float: right;
+}
+
+
