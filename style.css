@@ -1,3 +1,60 @@
+html {
+    font-family: "Robot", sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+.table-of-contents {
+    margin-bottom: 40px;
+}
+
+.table-of-contents .toc-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003049;
+}
+
+.table-of-contents a {
+    text-decoration: none;
+    color: #18445f;
+}
+
+.table-of-contents ul {
+    list-style: none;
+    padding-left: 0;
+    color: #003049;
+    text-transform: uppercase;
+}
+
+.table-of-contents .heading {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+
+.table-of-contents ul li {
+    margin: 16px 0;
+}
+
+.table-of-contents .headings-container {
+    padding-left: 16px;
+    border-left: 1px solid #003049;
+}
+
+.table-of-contents .heading::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background: #18445f;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 body {
     background-color: #f6f6f6;
 }
